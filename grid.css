@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+
+    /* grid-template-columns: 200px auto 200px 200px; */
+
+    /* grid-template-columns: repeat(3, 1fr); */
+
+    mane 4 colum a 25% kore nilam / auto mana aara 200px kore newar por ar gula auto niya nibe/ mane 3 colum a joto tok add kora jai tototok jaiga niba.
+}
+
+.item {
+    border: 1px solid red;
+    font-size: 1.5em;
+}
