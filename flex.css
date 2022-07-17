@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    border: 1px dashed #cccc27;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 400px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    /* aikane align items aita diya amra column  a center a niya aste parbo */
+}
+
+.box {
+    font-size: 3ex;
+    font-weight: 700;
+    border: 3px dashed red;
+    width: 100px;
+    height: 100px;
+}
+
+#box-2 {
+    flex-grow: 1;
+    /* aita holo amra onno diver jonno ja width niyacilam ar je baki jaiga takbe seta use korbe flex-grow */
+}
